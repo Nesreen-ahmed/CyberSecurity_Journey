@@ -19,16 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CyberSecurity Journey
-email: nesreeneltohamy01@gmail,com
+email: nesreeneltohamy01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my CyberSecurity Journey
+  Welcome to my cyberSecurity Journey
 baseurl: "/CyberSecurity_Journey" # the subpath of your site, e.g. /blog
 url: "https://nesreen-ahmed.github.io" # the base hostname & protocol for your site, e.g. http://example.com 
 github_username:  Nesreen-ahmed
-
+linkedin_username: nesreen-ahmed-6bbb08287
 author: Nesreen Ahmed Eltohamy
 # Build settings
 #theme: minima
+
+
 plugins:
   - jekyll-feed
 

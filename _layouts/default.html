@@ -28,29 +28,6 @@
       {% endif %}
     </header>
 
-    <div class="home">
-      {%- if site.posts.size > 0 -%}
-        
-        <ul class="post-list">
-          {%- for post in site.posts -%}
-          
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              
-              <h3 style="text-align: inherit;">
-                <span class="post-meta" style="font-size: small;">{{ post.date | date: date_format }}</span><br>
-                <a class="post-link" href="{{ post.url | relative_url }} " style="font-size: xx-large; ">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
-              {%- endif -%}
-            
-        {%- endfor -%}
-        </ul>
-
-      {%- endif -%}
-    </div>
     <main id="content" class="main-content" role="main">
       {{ content }}
 
