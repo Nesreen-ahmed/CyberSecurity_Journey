@@ -27,7 +27,7 @@ url: "https://nesreen-ahmed.github.io" # the base hostname & protocol for your s
 github_username:  Nesreen-ahmed
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
